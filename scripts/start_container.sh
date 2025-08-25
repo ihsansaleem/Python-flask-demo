@@ -3,6 +3,6 @@ set -e
 
 # Pull the Docker image from Docker Hub
 docker pull 7170/codebuild-app:v1
-
+#test
 # Run the Docker image as a container
 docker run -d -p 5000:5000 7170/codebuild-app:v1
